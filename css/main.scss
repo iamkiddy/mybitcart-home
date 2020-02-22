@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins&display=swap");
+$brand-color: #292929;
+$own-a-color: #0f2c3e;
+$para-text-fast: #242424;
+$font-family: "poppins", sans-serif;
+
+* {
+  margin: opx;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("../images/background-image.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+.brand-name {
+  font-weight: bold;
+  font-family: $font-family;
+  color: $brand-color;
+  font-size: 30px;
+  position: absolute;
+  top: 30px;
+  left: 100px;
+}
+.currency-price-text {
+  font-size: 20px;
+  font-family: $font-family;
+  font-weight: medium;
+  position: absolute;
+  top: 30px;
+  left: 900px;
+}
+.bitcart-phone {
+  position: absolute;
+  width: 470px;
+  height: 460px;
+  right: 60px;
+  top: 50px;
+}
+.own-a-text {
+  color: $own-a-color;
+  font-size: 45px;
+  font-family: $font-family;
+  font-weight: bold;
+  position: absolute;
+  top: 100px;
+  left: 100px;
+}
+.para-text-fast {
+  position: absolute;
+  font-size: 20px;
+  font-family: $font-family;
+  color: $para-text-fast;
+  top: 340px;
+  left: 100px;
+}
+.flashcoin-icon {
+  width: 30px;
+  position: absolute;
+  top: 430px;
+  left: 100px;
+}
+.flashcoin-text {
+  font-size: 18px;
+  color: $brand-color;
+  position: absolute;
+  top: 420px;
+  left: 140px;
+  font-family: $font-family;
+  font-weight: medium;
+}
+.block-caps-icon {
+  width: 140px;
+  position: absolute;
+  top: 440px;
+  left: 270px;
+}
+.google-play-icon {
+  width: 140px;
+  position: absolute;
+  top: 500px;
+  left: 100px;
+}
